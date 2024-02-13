@@ -1,0 +1,682 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.container { 
+    width: 1200px;
+}
+
+
+
+#one{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: one-animate 2s infinite linear ; 
+}
+
+@keyframes one-animate {
+    0%{
+        transform: scaleY(1.03);
+    }
+    30%{
+        transform: scaleY(1.2);
+    }
+    80%{
+        transform: scaleY(.5);
+    }
+    100%{
+        transform: scaleY(1.03);
+    }
+}
+#tow{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: tow-animate 2s infinite linear ; 
+}
+
+@keyframes tow-animate {
+    0%{
+        transform: scaleY(1.03);
+    }
+    40%{
+        transform: scaleY(.5);
+    }
+    80%{
+        transform: scaleY(1.3);
+    }
+    100%{
+        transform: scaleY(1.03);
+    }
+}
+
+#three{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: tow-animate 2s infinite linear ; 
+}
+
+@keyframes three-animate {
+    0%{
+        transform: scaleY(1.03);
+    }
+    40%{
+        transform: scaleY(.5);
+    }
+    80%{
+        transform: scaleY(1.2);
+    }
+    100%{
+        transform: scaleY(1.03);
+    }
+}
+
+#four{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: four-animate 2s infinite linear ; 
+}
+
+@keyframes four-animate {
+    0%{
+        transform: scaleY(1.02);
+    }
+    40%{
+        transform: scaleY(1.2);
+    }
+    80%{
+        transform: scaleY(0.7);
+    }
+    100%{
+        transform: scaleY(1.03);
+    }
+}
+
+#five{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: five-animate 2s infinite linear ; 
+}
+
+@keyframes five-animate {
+    0%{
+        transform: scaleY(1.02);
+    }
+    40%{
+        transform: scaleY(.5);
+    }
+    80%{
+        transform: scaleY(0.7);
+    }
+    100%{
+        transform: scaleY(1.03);
+    }
+}
+
+
+#six{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: six-animate 2s infinite linear ; 
+}
+
+@keyframes six-animate {
+    0%{
+        transform: scaleY(1.02);
+    }
+    40%{
+        transform: scaleY(.3);
+    }
+    80%{
+        transform: scaleY(1.2);
+    }
+    100%{
+        transform: scaleY(1.03);
+    }
+}
+
+
+#seven{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: seven-animate 2s infinite linear ; 
+}
+
+@keyframes seven-animate {
+    0%{
+        transform: scaleY(1.02);
+    }
+    40%{
+        transform: scaleY(1.3);
+    }
+    80%{
+        transform: scaleY(1.2);
+    }
+    100%{
+        transform: scaleY(1.03);
+    }
+}
+
+
+#eight{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: eight-animate 2s infinite linear ; 
+}
+
+@keyframes eight-animate {
+    0%{
+        transform: scaleY(1.02);
+    }
+    50%{
+        transform: scaleY(1.2);
+    }
+    100%{
+        transform: scaleY(1.03);
+    }
+}
+
+
+#nine{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: nine-animate 2s infinite linear ; 
+}
+
+@keyframes nine-animate {
+    0%{
+        transform: scaleY(1.02);
+    }
+    50%{
+        transform: scaleY(.28);
+    }
+    100%{
+        transform: scaleY(1.03);
+    }
+}
+
+
+#ten{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: ten-animate 2s infinite linear ; 
+}
+
+@keyframes ten-animate {
+    0%{
+        transform: scaleY(1.02);
+    }
+    50%{
+        transform: scaleY(1.25);
+    }
+    100%{
+        transform: scaleY(1.03);
+    }
+}
+
+
+
+
+
+#loading{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: loading-animate 4s infinite linear ; 
+}
+
+@keyframes loading-animate {
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+
+
+
+#labe-message-tow {
+    transform-origin: top;
+    transform-box: fill-box;
+    animation: labe-message-tow-animate 2s infinite linear ;
+}
+
+@keyframes labe-message-tow-animate {
+    50%{
+        translate: 0 5px;
+        transform: rotateX(180deg);
+    }
+}
+
+#message {
+    transform-origin: top;
+    transform-box: fill-box;
+    animation: message-animate 2s infinite linear ;
+}
+
+@keyframes message-animate {
+    50%{
+        translate: 0 15px;
+        transform: scale(.8);
+    }
+}
+
+
+
+
+
+
+
+
+
+#default {
+    transform-origin: top;
+    transform-box: fill-box;
+    animation: default-animate 2s infinite linear ;
+}
+
+@keyframes default-animate {
+    50%{
+    }
+}
+
+
+
+
+#eye-rast {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: eye-rast-animate 5s infinite linear ;
+}
+
+@keyframes eye-rast-animate {
+    
+    48%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0;
+        transform: rotateY(20deg);
+    }
+    80%{
+        opacity: 0%;
+    }
+    81%{
+        opacity: 100%;
+    }
+}
+
+#eye-chap {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: eye-chap-animate 5s infinite linear ;
+}
+
+@keyframes eye-chap-animate {
+    
+    48%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0;
+        transform: rotateY(20deg);
+    }
+    80%{
+        opacity: 0%;
+    }
+    81%{
+        opacity: 100%;
+    }
+}
+
+
+/* #eye-chap{
+    display: none;
+} */
+
+
+#khat-rast{
+    transform-origin: top;
+    transform-box: fill-box;
+    animation: khat-rast-animate 2s infinite linear ;
+}
+@keyframes khat-chap-animate {
+    
+    0%{
+        transform: scale(.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+
+#khat-chap{
+    transform-origin: top;
+    transform-box: fill-box;
+    animation: khat-rast-animate 3s infinite linear ;
+}
+@keyframes khat-chap-animate {
+    
+    0%{
+        transform: scale(.5);
+    }
+    50%{
+        transform: scale(.2);
+    }
+    51%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+
+#error-warn{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: error-warn-animate 1s infinite linear;
+}
+
+@keyframes error-warn-animate {
+    0%{
+        fill: red;
+    }
+    10%{
+        transform: translate(10px);
+    }
+    10.01%{
+        transform: translate(0);
+    }
+    30%{
+        transform: translate(-10px , 5px);
+    }
+    30.01%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translate(-10px , -5px);
+        fill: rgb(255, 96, 96);
+    }
+    50.01%{
+        transform: translate(0);
+    }
+    70%{
+        transform: translate(10px , 5px);
+    }
+    70.01%{
+        transform: translate(0);
+    }
+    90%{
+        transform: translate(0px , 5px);
+    }
+    90.01%{
+        transform: translate(0);
+    }
+    100%{
+        fill: rgb(255, 0, 0);
+     }
+}
+
+
+
+
+
+
+#erorr-4{
+    transform-origin: center;
+transform-box: fill-box;
+    animation: erorr-4-animate 1s infinite linear;
+}
+@keyframes erorr-4-animate{
+    0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scaleY(1.2);
+      }
+        100% {
+            transform: scale(1);
+        }
+  }
+
+
+
+
+
+#error-one{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: error-one-animate 2s infinite linear;
+    translate: 30px;
+    transform: scale(.5);
+}
+
+@keyframes error-one-animate {
+    0%{
+     
+    }
+    100%{
+     
+    }
+}
+
+
+#error-tow{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: error-tow-animate 2s infinite linear;
+    translate: -30px;
+    transform: scale(.5);
+
+}
+
+@keyframes error-tow-animate {
+    0%{
+     
+    }
+    100%{
+     
+    }
+}
+
+
+
+#error-three{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: error-three-animate 4s infinite linear;
+    translate: 15px -20px;
+    transform: scale(.2);
+}
+
+@keyframes error-three-animate {
+    0%{
+        opacity: 0;
+        fill: red;
+    }
+    10%{
+     opacity: 0;
+    }
+    10.01%{
+        opacity: 100%;
+       }
+       40%{
+        opacity: 100%;
+       }
+       40.02%{
+        opacity: 0;
+       }
+    100%{
+        fill: red;
+        opacity: 0;
+    }
+}
+
+#error-four{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: error-four-animate 4s infinite linear;
+    translate: -33px 20px ;
+    transform: scale(.4);
+}
+
+@keyframes error-four-animate {
+    0%{
+        opacity: 0;
+        fill: red;
+    }
+    10%{
+     opacity: 0;
+    }
+    10.01%{
+        opacity: 100%;
+       }
+       40%{
+        opacity: 100%;
+       }
+       40.02%{
+        opacity: 0;
+       }
+    100%{
+        fill: red;
+        opacity: 0;
+    }
+}
+
+
+#error-five{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: error-five-animate 3s infinite linear;
+    translate: -1px;
+}
+
+@keyframes error-five-animate {
+    0%{
+        fill: rgb(255, 53, 53);
+    }
+    50%{
+     opacity: 60%;
+    }
+    100%{
+        fill: rgb(255, 53, 53);
+    }
+}
+
+#lab{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: lab-animate 5s infinite linear;
+    rotate: 20deg, 50deg;
+}
+
+@keyframes lab-animate {
+
+
+
+
+    0%{
+    }
+    
+    50%{
+    }
+    50%{
+     
+        transform: rotateY(20deg);
+    }
+    80%{
+     
+    }
+    100%{
+    }
+}
+
+#face{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: face-animate 10s infinite linear;
+}
+@keyframes face-animate {
+    0%{
+
+    }
+    15%{
+        transform: rotateY(0deg);
+        translate :0px;
+    }
+    25%{
+        transform: rotateY(20deg);
+        translate : 15px;
+    }
+    35%{
+     
+        transform: rotateY(0deg);
+        translate :0px;
+        
+    }
+    65%{
+        transform: rotateY(0deg);
+        translate :0px;
+    }
+    75%{
+        transform: rotateY(-20deg);
+        translate : -15px;
+    }
+    85%{
+        transform: rotateY(0deg);
+        translate :0px;
+    }
+}
+
+
+#alarm-you-have-message{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: alarm-you-have-message-animate 2s infinite linear;
+    translate: -3px 3px;
+}
+
+@keyframes  alarm-you-have-message-animate {
+    0%{
+
+    }
+    50%{
+        opacity: 70%;
+    }
+    100%{
+        
+    }
+}
+
+
+#message-paper-warn path{
+    box-shadow: 10px 5px 5px rgb(80, 42, 42);
+    border: 20px solid black;
+    stroke: rgb(28, 28, 28);
+    stroke-width: 1px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
